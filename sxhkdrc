@@ -1,0 +1,23 @@
+# rofi
+super + p
+	rofi -show drun
+
+# esurf
+super + w
+	/home/everett/esurf.sh
+#screenkey
+super + s
+	screenkey -m
+#quit screenkey
+super+ S
+	pkill -f screenkey
+
+# rangeri
+super + r
+	st ranger
+# reboot
+alt + r
+	/home/everett/sdrsc/r.sh
+#shudown
+alt + s
+	/home/everett/sdrsc/sd.sh
