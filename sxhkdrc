@@ -1,23 +1,18 @@
-# rofi
-super + p
-	rofi -show drun
-
-# esurf
+# qutebrowser
 super + w
-	/home/everett/esurf.sh
-#screenkey
-super + s
-	screenkey -m
-#quit screenkey
-super+ S
-	pkill -f screenkey
-
-# rangeri
-super + r
-	st ranger
+	qutebrowser
+# ytfzf
+super + y
+	ytfzf -D
+# sd
+alt + s
+	/home/everett/sdr/sd.sh
 # reboot
 alt + r
-	/home/everett/sdrsc/r.sh
-#shudown
-alt + s
-	/home/everett/sdrsc/sd.sh
+	/home/everett/sdr/r.sh
+# start screenkey
+ctrl + s
+	screenkey
+# exit screenkey
+ctrl + k
+	pkill screenkey
